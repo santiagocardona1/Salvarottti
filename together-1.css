@@ -1,0 +1,98 @@
+body{
+	background-image: url(../CSS/salva.jpeg)
+
+
+}
+
+header, footer{
+	background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, grey 100%); 
+
+}
+
+header{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+h1{
+	color: #ffffff;
+    display: inline-block;
+    font-family: downloa
+}
+
+nav{
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+    text-align: center;
+}
+
+nav a{
+	display: inline-block;
+	background-color: #ffffff;
+	width:22%;
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+	color: white;
+	background: grey;
+}
+
+.half{
+	width:45%;
+	margin-right: 2%;
+	display:inline-block;
+	float:left;
+}
+
+.whole{
+	clear:both;
+}
+
+summary{
+	font-style:normal;
+}
+
+details{
+	font-style: italic;
+}
+
+footer{
+	height:100px;
+	clear: both;
+}
+img{
+	width: 117px;
+    float: left;
+    display: inline-block;
+}
+
+@font-face{
+    font-family: "CustomFont";
+    src: local(Pacífico);
+
+}
+
+.insta{
+    width: 35px;
+    display: inline-block;
+    
+}
+.gmail{
+    width: 35px;
+    display: inline-block;
+}
+.Whatsapp{
+    width: 35px;
+    display: inline-block;
+}
+
+label{
+    color: white;
+}
